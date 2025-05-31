@@ -1,4 +1,5 @@
-items = ["Bread", "butter", "Pasta", "Fruits", "Vegetables"]
+items = ["Bread".lower(), "butter", "Pasta", "Fruits", "Vegetables"]
+fruits = ["apple", "banana", "kiwi"]
 
 print(items)
 
@@ -9,3 +10,17 @@ items.append("Chips")
 print(items)
 
 print(len(items))
+
+items.insert(2, "biscuits")
+
+print(items)
+
+fruits.append("dragon")
+
+groceries = items + fruits
+
+print(groceries)
+
+print(len(groceries))
+
+print("bread" in items)
