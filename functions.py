@@ -12,3 +12,12 @@ joes_total = calculate_total(joe_exp_list)
 
 print("Tom's total expenses", toms_total)
 print("Joe's total expense", joes_total)
+
+'''
+def sum (a,b):
+    total = a + b 
+    return total
+
+n = sum(5,6)
+print("Total:", n)
+'''
