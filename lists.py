@@ -19,6 +19,9 @@ fruits.append("dragon")
 
 groceries = items + fruits
 
+#also 
+items.extend(fruits)
+
 print(groceries)
 
 print(len(groceries))
