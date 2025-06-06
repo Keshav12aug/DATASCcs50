@@ -11,7 +11,7 @@
 average()
 '''
 
-def average(a,b,c):
+'''def average(a,b,c):
     d = (a+b+c)/3.0
     return d 
 
@@ -20,3 +20,11 @@ o2 = average(82,97,64)
 
 print(o1)
 print(o2)
+'''
+
+def add(a, b , plus = 0):
+    return a + b + plus
+
+c = add(2, 4, 5)
+print(c)
+
