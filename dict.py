@@ -21,4 +21,5 @@ print("Tom" in d)
 '''
 point = (5,9)
 point[0]
-point[1]'''
+point[1]
+'''
