@@ -28,3 +28,8 @@ def add(a, b , plus = 0):
 c = add(2, 4, 5)
 print(c)
 
+
+def student(name, age):
+    print(f"Name: {name}, Age: {age}")
+
+student(name = "Keshav", age = 30)
