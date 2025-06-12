@@ -22,3 +22,4 @@ print(e1.get_salary())
 e1.get_info()
 print(e1.get_employee())
 print(e1.company)# will print instance attribute when present inside the fxn
+print(dir(e1))
