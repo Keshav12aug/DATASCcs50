@@ -12,12 +12,12 @@ class Employee:
     def sum(a, b): #when I don't wanna add self to a fxn
         return a+b
     @classmethod
-    def print_company(cls):
-        print(cls.company)
+    def print_company(awb):
+        print(awb.company)
 
     @classmethod
-    def change_company(cls, new_company):
-        cls.company = new_company
+    def change_company(awb, new_company):
+        awb.company = new_company
 
 
 e1 = Employee("Jack", 3455)
