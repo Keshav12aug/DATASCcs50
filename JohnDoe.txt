@@ -1,0 +1,4 @@
+ John is a nice guy, he is workaholic, he works on python.
+He creates a new file.
+He is a genius. 
+He lives in Arizona, he likes playing cricket and swimming
