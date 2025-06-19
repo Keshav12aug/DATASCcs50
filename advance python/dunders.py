@@ -9,7 +9,7 @@ class Employee:
     
 
     def __repr__(self):
-        return f"Name : {self.name} Salary: {self.salary}"
+        return f"Name : {self.name} \nSalary: {self.salary}"
     
 
     def __len__(self):
@@ -20,3 +20,4 @@ e = Employee("Keshav", 2434344)
 print(e.name, e.salary)
 print(str(e))
 print(len(e))
+print(repr(e))
