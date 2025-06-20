@@ -3,7 +3,7 @@ import time
 
 def worker(num):
     print(f"Thread{num}: Starting")
-    time.sleep(2) #simulate some work
+    time.sleep(3) #simulate some work
     print(f"Thread{num}: Finishing")
 
 
