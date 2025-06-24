@@ -16,4 +16,4 @@ for i in range(5):
 for thread in threads:
     thread.join() # Wait for all threads to finish
     
-print("All threads completed.")
+print("All threads completed.") 
